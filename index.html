@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>  
+<body>
+  
+  <header>
+    
+   <article id="cab">
+     <div class="barra">
+       <img src="home.png">
+       <p>HOME</p>
+     </div>
+
+     <div class="barra">
+        <a href="http://127.0.0.1:5500/mda/index.html" target="_blank"><img src="simbolo-de-interface-de-foto-de-pesquisa-com-ferramenta-de-lupa.png"></a>
+        <p>PESQUISAR</p>
+     </div>
+
+     <div class="barra">
+        <img src="novo-envelope-de-email.png">
+        <p>EMAIL</p>
+     </div> 
+
+     <div class="barra">
+       <a href="https://www.youtube.com/c/oasisdedeus" target="_blank"><img src="youtube.png"></a> 
+       <p>YOUTUBE</p>
+     </div> 
+   </article>
+  </header> 
+
+  <article class="formulario">
+   <form name="Cadasto de membros" method="post">
+       <section class="cm1">   
+         <h1><strong>CADASTRE-SE</strong></h1>
+         <img class="imagem" src="igreja.png">
+       </section>
+       
+
+     <fieldset> 
+        <label><strong>NOME COMPLETO:</strong></label>
+        <input type="text" name="nome" id="nome" placeholder="Seu Nome" required size="60px">
+         
+       <div class="celular">
+         <label><strong>CELULAR</strong></label>
+         <input type="tel" name="celular" id="celular" placeholder="(xx)9xxxx-xxxx" required>
+       </div><br><br>
+
+         <label><strong>CPF</strong></label>
+         <input type="text" name="cpf" id="cpf" placeholder="xxx.xxx.xxx-xx" size="40px">
+       
+       <div class="nasc">
+         <label><strong>DATA DE NASCIMENTO</strong></label>
+         <input type="date" name="dtnascimento" id="dtnascimento">
+       </div><br><br>
+
+       <label><strong>EMAIL</strong></label>
+       <input type="email" name="email" id="email" placeholder="exemple@gmail.com" required>
+     </fieldset><br>
+
+     <fieldset>
+       <label><strong>ESTADO CÍVIL</strong></label>
+       <label>
+         <input type="radio" name="estado cívil" value="solteiro">Solteiro(a)
+       </label>
+
+       <label>
+         <input type="radio" name="estado cívil" value="casado">Casado(a)
+       </label>
+
+        <label>
+          <input type="radio" name="estado cívil" value="divorciado">divorciado(a)
+        </label>
+
+        <label>
+          <input type="radio" name="estado cívil" value="viuvo">Víuvo(a)
+        </label>
+     </fieldset><br>
+
+     <fieldset>
+       <div>
+             <label><strong>ESTADO</strong></label>
+         <select id="ESTADO">
+           <option selected disabled value="">Selecione</option>
+           <option>AC</option>
+           <option>AL</option>
+           <option>AP</option>
+           <option>AM</option>
+           <option>BA</option>
+           <option>CE</option>
+           <option>DF</option>
+           <option>ES</option>
+           <option>GO</option>
+           <option>MA</option>
+           <option>MT</option>
+           <option>MS</option>
+           <option>MG</option>
+           <option>PA</option>
+           <option>PB</option>
+           <option>PR</option>
+           <option>PE</option>
+           <option>PI</option>
+           <option>RJ</option>
+           <option>RN</option>
+           <option>RS</option>
+           <option>RO</option>
+           <option>RR</option>
+           <option>SC</option>
+           <option>SP</option>
+           <option>SE</option>
+           <option>TO</option>
+         </select>
+        
+        </div><br><br>
+
+        <div>
+          <label><strong>NATURALIDADE</strong></label>
+           <input type="text" name="naturalidade" id="naturalidade">
+        </div><br>
+     </fieldset><br>
+     
+     <fieldset>
+        <div>
+         <label><strong>FALE UM POUCO DE SI:</strong></label>
+         <textarea flow="8" style="width:26em" name="fale um pouco de si" id="fale um pouco de si" placeholder="Comente aqui..." ></textarea>
+        </div>
+     </fieldset><br><br>
+
+        <input type="submit" name="enviar" value="Enviar" style="border: 2px solid black;">
+        <input type="reset" name="limpar" value="Limpar" style="border: 2px solid black">
+   </form>
+  </article><br><br>
+
+  <footer>
+    <section class="rodape">
+      <p class="pz">Para conhecer mais, acesse o facebook</p>
+      <a class="oasis" style="color: #c0c0c0;" href="https://www.facebook.com/IgrejaEvangelicaOasisDeDeus/" target="_blank">Oásis de Deus </a>
+    </section>
+  </footer>
+</body>
+</html>
